@@ -1,0 +1,4 @@
+gcf/g-sheet-credentials.json
+**/node_modules
+.idea
+gcf/pat.txt

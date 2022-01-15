@@ -1,0 +1,17 @@
+{
+  "name": "gcf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "login": "gcloud auth login",
+    "deploy": "gcloud functions deploy getStudentData --region us-central1 --runtime nodejs14 --trigger-http",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^92.0.0"
+  }
+}
