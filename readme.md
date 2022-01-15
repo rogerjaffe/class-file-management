@@ -19,13 +19,13 @@
         e. Runs git config --global user.email "<passed email>"
         f. Runs git config --global user.name "<retrieved name>"
 
-5. GCF must have an environment variable `GOOGLE_APPLICATION_CREDENTIALS=g-sheet-credentials.json` for API authentication. 
+5. GCF must have an environment variable `GOOGLE_APPLICATION_CREDENTIALS=g-sheet-credentials.json` for an nAPI authentication JSON credential file created with a service account key  
 
 How to run a shell script see `https://medium.com/stackfame/how-to-run-shell-script-file-or-command-using-nodejs-b9f2455cb6b7`
 
 How to pass in node arguments see https://stackoverflow.com/questions/4351521/how-do-i-pass-command-line-arguments-to-a-node-js-program
 
-Access G-Sheet data within a Google Cloud Function see https://stackoverflow.com/questions/44448029/how-to-use-google-sheets-api-while-inside-a-google-cloud-function
+Access G-Sheet data within a Google Cloud Function see `https://stackoverflow.com/questions/44448029/how-to-use-google-sheets-api-while-inside-a-google-cloud-function`
 
 G-Form for students to enter their PATs at https://docs.google.com/forms/d/e/1FAIpQLSeSMpToEA83usgxL1WbB_bznGpuwM9Ct5mEG9HRlvA9I6CwWA/viewform?usp=sf_link
 

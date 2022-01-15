@@ -20,7 +20,8 @@ module.exports = async (studentId) => {
   } catch (e) {
     throw e;
   }
-  const patData = patList.find((s) => s.studentId === studentId);
+  const revPatList = patList.reverse();
+  const patData = revPatList.find((s) => s.studentId === studentId);
   if (!patData) {
     throw new Error("PATNotFoundError");
   } else {
