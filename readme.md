@@ -1,5 +1,7 @@
 ### Classroom File Management with Github
 
+### Repo class-file-management
+
 #### Steps:
 
 0. At each machine login, erase ~/.netrc file
