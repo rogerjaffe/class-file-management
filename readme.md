@@ -2,9 +2,17 @@
 
 ### Repo class-file-management
 
-At login run git clone https://github.com/rogerjaffe/class-file-management cfm
-then cd client, then npm install 
-Students run from terminal ./cfm/setup.sh
+At login run 
+
+* git clone https://github.com/rogerjaffe/class-file-management cfm
+
+* cd cfm/client
+
+* npm install 
+
+* cp ~/cfm/client/setup.sh ~
+
+* Students run from terminal ./setup.sh
 
 
 #### Steps:
