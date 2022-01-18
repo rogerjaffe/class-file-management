@@ -10,7 +10,7 @@ At login run
 
 * npm install 
 
-* cp ~/cfm/client/setup.sh ~
+* cp ~/cfm/setup.sh ~
 
 * Students run from terminal ./setup.sh
 

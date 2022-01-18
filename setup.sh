@@ -1,2 +1,2 @@
 #! /bin/bash
-node ~/cfm/client/index.js
+node ~/cfm/client/index.js $1
