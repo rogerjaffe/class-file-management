@@ -2,6 +2,11 @@
 
 ### Repo class-file-management
 
+At login run git clone https://github.com/rogerjaffe/class-file-management cfm
+then cd client, then npm install 
+Students run from terminal ./cfm/setup.sh
+
+
 #### Steps:
 
 0. At each machine login, erase ~/.netrc file
