@@ -1,3 +1,3 @@
 #! /bin/bash
-node ~/cfm/client/test.js
+node ~/cfm/client/index.js
 notify-send -t 3000 'Github file management setup completed'
