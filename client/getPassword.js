@@ -5,6 +5,7 @@ exports.getPassword = (callback) => {
   function cleanup() {
     stdin.removeListener("data", pn);
     stdin.setRawMode(false);
+    stdout.write("\n");
     stdin.pause();
   }
 
@@ -37,7 +38,7 @@ exports.getPassword = (callback) => {
     }
   };
 
-  stdout.write("password: ");
+  stdout.write("Password: ");
   stdin.setRawMode(true);
   stdin.resume();
   stdin.setEncoding("utf-8");

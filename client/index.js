@@ -53,7 +53,11 @@ const query = (studentId) => (password) => {
   })
     .then((res) => res.json())
     .then(async (data) => {
-      await processData(data);
+      if (!data.error) {
+        await processData(data);
+      } else {
+        console.log(data.message);
+      }
     })
     .catch((err) => {
       throw new Error(err.message);
