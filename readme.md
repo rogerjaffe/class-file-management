@@ -4,6 +4,7 @@
 
 * Students create Github.com account, create a personal access token
 * Students fill out Google form at `https://docs.google.com/forms/d/e/1FAIpQLSeSMpToEA83usgxL1WbB_bznGpuwM9Ct5mEG9HRlvA9I6CwWA/viewform` and provide their student ID and Google personal access token
+* G-Form connects to the Google Sheet at `https://docs.google.com/spreadsheets/d/1P2ZG87q4nwhT2C-qxN1f40m9Caw0C19QzOSMvF-jtNY/edit?resourcekey#gid=1514313783`  
 * Teacher fills out a G-Sheet with student ID, name, and district password. See `https://docs.google.com/spreadsheets/d/1f35OprNqcF6_dHwv3N5rnrWVkGZJyTD8PFaB_TVJF0M/edit?usp=sharing` 
 
 ### Required after each student login:
