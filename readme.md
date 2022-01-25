@@ -6,7 +6,7 @@
 * Students fill out Google form at `https://docs.google.com/forms/d/e/1FAIpQLSeSMpToEA83usgxL1WbB_bznGpuwM9Ct5mEG9HRlvA9I6CwWA/viewform` and provide their student ID and Google personal access token
 * Teacher fills out a G-Sheet with student ID, name, and district password. See `https://docs.google.com/spreadsheets/d/1f35OprNqcF6_dHwv3N5rnrWVkGZJyTD8PFaB_TVJF0M/edit?usp=sharing` 
 
-### Required at student login:
+### Required after each student login:
 
 * Open terminal
 * ./setup.sh <studentId>
@@ -22,20 +22,20 @@ Errors: Internet errors, and authentication errors
 
 ## Computer configuration
 
-On login, run 
+### Beginning of the year
 
-* git clone https://github.com/rogerjaffe/class-file-management setup
-* Delete current Github global name / email values
-* Delete existing .netrc file if present
+Login as student and copy `setup.sh` to `~/` (`/home/student`) 
+
+### On each login 
 
 ```
-git clone https://github.com/rogerjaffe/class-file-management setup
+git clone https://github.com/rogerjaffe/class-file-management cfm
 git config --global --unset user.name
 git config --global --unset user.email
 rm ~/.netrc
 ```
 
-This script is found in /usr/bin/startup.sh with the master copy at `https://drive.google.com/file/d/1lBZ4McczFizkuj87-zsv2qJtqK6opv45/view?usp=sharing`
+These commands are contained in /usr/bin/startup.sh with the master copy at `https://drive.google.com/file/d/1lBZ4McczFizkuj87-zsv2qJtqK6opv45/view?usp=sharing`
 
 ### Google Cloud Function in gcf folder
 
