@@ -9,8 +9,9 @@
 
 ### Required after each student login:
 
-* Open terminal
-* ./setup.sh <studentId>
+Open terminal
+
+`./setup.sh <studentId>`
 
 The following actions will happen:
 
