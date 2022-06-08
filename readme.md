@@ -25,7 +25,10 @@ Errors: Internet errors, and authentication errors
 
 ### Beginning of the year
 
-Login as student and copy `setup.sh` to `~/` (`/home/student`) 
+* Login as student
+  
+  * copy `setup.sh` to `~/` (`/home/student`)
+  * Copy repository contents to ~/cfm
 
 ### On each login 
 
