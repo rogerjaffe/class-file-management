@@ -9,8 +9,9 @@
 
 ### Required after each student login:
 
-* Open terminal
-* ./setup.sh <studentId>
+Open terminal
+
+`./setup.sh <studentId>`
 
 The following actions will happen:
 
@@ -25,7 +26,10 @@ Errors: Internet errors, and authentication errors
 
 ### Beginning of the year
 
-Login as student and copy `setup.sh` to `~/` (`/home/student`) 
+* Login as student
+  
+  * copy `setup.sh` to `~/` (`/home/student`)
+  * Copy repository contents to ~/cfm
 
 ### On each login 
 
