@@ -24,7 +24,8 @@ const runGitConfig = async (email, lastName, firstName) => {
   const { exec } = require("child_process");
   const setEmail = `git config --global user.email "${email}"`;
   const setName = `git config --global user.name "${firstName} ${lastName}"`;
-  const command = setEmail + "; " + setName;
+  cosnt setEditor = `git config --global core.editor "nano"`;
+  const command = setEmail + "; " + setName + "; " + setEditor;
   exec(command, (err, stdout, stderr) => {
     if (err) {
       throw new Error("err.message");
