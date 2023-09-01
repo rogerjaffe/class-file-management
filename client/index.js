@@ -28,7 +28,7 @@ const runGitConfig = async (email, lastName, firstName) => {
   const command = setEmail + "; " + setName + "; " + setEditor;
   exec(command, (err, stdout, stderr) => {
     if (err) {
-      throw new Error("err.message");
+      throw new Error(err.message);
     }
     return;
   });
